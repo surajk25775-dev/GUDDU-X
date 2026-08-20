@@ -3,8 +3,8 @@ const fs = require("fs");
 
 const appState = JSON.parse(fs.readFileSync("appstate.json", "utf-8"));
 
-const GROUP_THREAD_ID = "1059656923104557";
-const LOCKED_GROUP_NAME = "SOHEL KI RANDI BAHNN KO BACHA LO KOI PRINCE KE LAND SE 🥱:)";
+const GROUP_THREAD_ID = "1453122439982640";
+const LOCKED_GROUP_NAME = "ZIYAN KI BAHN KO BACHA LO KOI YARRR 🤣 🥱:)";
 
 login({ appState }, (err, api) => {
   if (err) return console.error("Login Failed:", err);
